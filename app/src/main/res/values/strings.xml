@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">TelstraSMS</string>
+    <string name="api_key">API_KEY</string>
+    <string name="api_secret">API_SECRET</string>
+    <string name="auth">AUTH</string>
+    <string name="debug_text">[Debug info]</string>
+    <string name="bearer_text">[AUTH to request bearer]</string>
+    <string name="no_saved_key">No saved key/secret</string>
+    <string name="saved_key">Saved key/secret found</string>
+    <string name="new_key">New key/secret saved</string>
+    <string name="bearer_error">Error requesting bearer</string>
+    <string name="json_error">Error converting JSON</string>
+    <string name="message">Message</string>
+    <string name="phone_num">Phone #</string>
+    <string name="send">Send</string>
+    <string name="bearer_missing">Request bearer first!</string>
+    <string name="send_fail">Failed to send message</string>
+    <string name="msg_sent">Sent, received %d code</string>
+    <string name="json_err">JSON error</string>
+    <string name="get_msg">Get msg</string>
+    <string name="get_fail">Failed to get message</string>
+    <string name="no_msgs">No new messages</string>
+    <string name="action_settings">Settings</string>
+    <string name="about">About</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="status_err">Error getting number status</string>
+    <string name="status_json_err">Error parsing status JSON</string>
+    <string name="status_err_io">Error requesting status</string>
+    <string name="rnw_fail">(rnw fail)</string>
+    <string name="rnw_succ">(rnwd!)</string>
+</resources>

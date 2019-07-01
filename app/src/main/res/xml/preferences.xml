@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ListPreference
+            app:key="api_key"
+            app:title="API Key"
+            app:summary="Choose an API key/number"
+            app:entries="@array/numbers"
+            app:entryValues="@array/api_keys"
+    />
+
+    <EditTextPreference
+            app:key="validity"
+            app:title="Validity"
+            app:summary="Time (min) network should attempt to send"
+            app:defaultValue="-1"
+            app:singleLine="true"
+    />
+
+    <EditTextPreference
+            app:key="wait"
+            app:title="Scheduled Delivery"
+            app:summary="Time (min) before message delivery"
+            app:defaultValue="-1"
+            app:singleLine="true"
+    />
+
+</PreferenceScreen>
